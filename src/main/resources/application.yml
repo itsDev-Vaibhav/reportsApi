@@ -1,0 +1,19 @@
+server:
+  port: 8081 
+
+spring:
+  datasource:
+    username: jrtp
+    password: Jrtp21@1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/report_api
+    
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      dialect: org.hibernate.dialect.MySQLDialect
+        
+    
+       
